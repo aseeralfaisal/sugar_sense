@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
-import numpy as np
-# import pickle
+# import numpy
+import pickle
 
 # model = pickle.load(open('final_model.pkl', 'rb'))
 
@@ -23,7 +23,7 @@ def home_view():
 #     DiabetesPedigreeFunction = request.form.get('DiabetesPedigreeFunction')
 #     Age = request.form.get('Age')
 
-#     input_query = np.array(
+#     input_query = numpy.array(
 #         [[Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]])
 #     result = model.predict(input_query)[0]
 
