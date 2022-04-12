@@ -1,4 +1,4 @@
 flask
-numpy
+# numpy
 sklearn
 gunicorn
